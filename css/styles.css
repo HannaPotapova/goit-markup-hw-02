@@ -1,0 +1,119 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+    --title-bg-color: #F5F4FA;
+    --accent-bg-color: #2F303A;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+span {
+    color: var(--accent-color);
+}
+
+.logo-header {
+    color: #000000;
+}
+.logo-footer {
+    color: var(--primary-bg-color);
+}
+/*Site nav*/
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
+.connection .link {
+    color: var(--title-text-color);
+}
+.connection .link:hover,
+.connection .link:focus {
+    color: var(--accent-color);
+}
+
+/*Hero*/
+.hero {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-bg-color);
+
+}
+
+/*Section*/
+.section {
+
+}
+
+.section-title {
+
+}
+
+/*Features*/
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+/*Team*/
+.team-list .title {
+    color: var(--title-text-color);
+}
+.section.team {
+    background-color: var(--title-bg-color);
+}
+
+/*Button*/
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--title-bg-color);
+}
+
+.button.primary {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+.button.secondary {
+    color: var(--primary-text-color);
+    background-color: var(--title-bg-color);
+    border-radius: 4px;
+}
+
+/* Footer bg */
+.page-footer {
+    background-color: var(--accent-bg-color);
+}
+
+.connection-footer .link {
+    color: #FFFFFF99;
+}
+
+.adress {
+    color: var(--primary-bg-color);
+}
+
+
+/* цвет основного текста #212121;*/
+/* вторичный цвет текста #757575;*/
+/* белый #FFFFFF*/
+/* белый с прозрачностью #FFFFFF99;*/
+/* акцент #2196F3;*/
+/* чёрный #000000; */
+
+/* основной цвет фона #FFFFFF;*/
+/* вторичный цвет фона #F5F4FA;/
+/* акцент фон #2F303A;*/
+
